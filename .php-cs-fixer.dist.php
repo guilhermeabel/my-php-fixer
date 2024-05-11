@@ -36,6 +36,15 @@ return (new Config())
         ],
         'concat_space' => ['spacing' => 'one'],
         'declare_strict_types' => true,
+        'no_blank_lines_after_class_opening' => false,
+        'class_attributes_separation' => [
+            'elements' => [
+                'const' => 'one',
+                'method' => 'one',
+                'property' => 'none',
+                'trait_import' => 'one',
+            ],
+        ],
     ])
     ->setFinder(
         (new Finder())
