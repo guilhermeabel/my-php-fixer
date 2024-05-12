@@ -39,7 +39,7 @@ return (new Config())
         'no_blank_lines_after_class_opening' => false,
         'class_attributes_separation' => [
             'elements' => [
-                'const' => 'one',
+                'const' => 'none',
                 'method' => 'one',
                 'property' => 'none',
                 'trait_import' => 'one',
